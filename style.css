@@ -53,6 +53,9 @@ p {
     display: block;
 }
 
+
+
+
 .banner-text {
     position: absolute;
     display: block;
@@ -148,7 +151,6 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
     border-radius: 5px;
 
 }
@@ -194,4 +196,156 @@ h2 {
     line-height: 28px;
     text-align: cente;
 
+}
+
+.food {
+    font-size: 30px;
+    position: absolute;
+    width: 200.76px;
+    height: 72px;
+    left: 180px;
+    top: 1700px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+
+
+}
+
+
+
+.family {
+    font-size: 30px;
+    position: absolute;
+    width: 200.76px;
+    height: 72px;
+    left: 180px;
+    top: 1900px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+
+}
+
+.child {
+    font-size: 30px;
+    position: absolute;
+    width: 200.76px;
+    height: 72px;
+    left: 180px;
+    top: 2100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+
+}
+
+
+.food-section {
+    position: absolute;
+    width: 310px;
+    height: 101px;
+    left: 180px;
+    top: 1800px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+
+
+}
+
+.family-section {
+    position: absolute;
+    width: 310px;
+    height: 101px;
+    left: 180px;
+    top: 2000px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.child-section {
+    position: absolute;
+    width: 310px;
+    height: 101px;
+    left: 180px;
+    top: 2200px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+
+}
+
+.blood {
+
+    position: absolute;
+    width: 58.13px;
+    height: 49.77px;
+    left: 180px;
+    top: 1659px;
+
+
+}
+
+.frame {
+    position: absolute;
+    width: 58.13px;
+    height: 49.77px;
+    left: 190px;
+    top: 1659px;
+
+
+}
+
+.shelter {
+    position: absolute;
+    width: 58.13px;
+    height: 49.77px;
+    left: 200px;
+    top: 1659px;
+
+}
+
+
+
+.half-width {
+
+
+    position: absolute;
+    width: 360px;
+    height: 352px;
+    left: 147px;
+    top: 1595px;
+
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+
+}
+
+.flexible-container {
+    display: flex;
 }
