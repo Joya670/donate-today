@@ -2,9 +2,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Inter', sans-serif;
-
     font-family: 'Poppins', sans-serif;
-
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
@@ -40,22 +38,24 @@ p {
 
 }
 
+
 #top-banner {
     background-image: url(images/donation3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    height: 690px;
+    height: 650px;
     width: 1440px;
     left: 0;
     top: 0;
-    box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 25));
     border: 1px solid;
+    display: block;
 }
 
 .banner-text {
     position: absolute;
+    display: block;
     width: 826px;
     height: 319px;
     left: 319px;
@@ -91,4 +91,32 @@ h2 {
     line-height: 28px;
     text-align: center;
 
+}
+
+.container {
+    display: flex;
+    margin: 70px 0px;
+    position: absolute;
+    padding: 10px;
+    justify-content: center;
+    top: 900px;
+    left: 350px;
+
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background: #fafafa;
+    margin: 0px 10px;
+    text-align: center;
+    float: left;
+    font-weight: 700px;
+    font-size: 30px;
+}
+
+.box:hover {
+    transform: scale(1.4);
+    background: #fafafa;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 25);
 }
