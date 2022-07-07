@@ -30,7 +30,17 @@ p {
 }
 
 .link-button {
-    Subscribe
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    padding: 15px 40px;
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    opacity: 0.2px;
+
+
 }
 
 
@@ -47,9 +57,6 @@ p {
     border: 1px solid;
     display: block;
 }
-
-
-
 
 .banner-text {
     position: absolute;
