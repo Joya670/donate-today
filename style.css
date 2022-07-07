@@ -9,10 +9,14 @@ body {
 
 h1 {
     color: white;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 800;
     line-height: 78.66px;
     text-align: center;
+}
+
+section {
+    display: flex;
 }
 
 p {
@@ -26,16 +30,7 @@ p {
 }
 
 .link-button {
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(orange, tomato);
-    border-radius: 5px;
-    padding: 10px 40px;
-    position: absolute;
-    left: 300px;
-    opacity: 0.3;
-
-
+    Subscribe
 }
 
 
@@ -137,6 +132,7 @@ h2 {
     left: 968px;
     height: 123px;
     width: 134px;
+    display: block;
 }
 
 .amount-text {
@@ -198,142 +194,24 @@ h2 {
 
 }
 
-.food {
-    font-size: 30px;
-    position: absolute;
-    width: 200.76px;
-    height: 72px;
-    left: 180px;
-    top: 1700px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    color: #121212;
-
-
+.half-width {
+    display: flex;
 }
 
+.icon {
 
-
-.family {
-    font-size: 30px;
-    position: absolute;
-    width: 200.76px;
-    height: 72px;
-    left: 180px;
-    top: 1900px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    color: #121212;
-
-}
-
-.child {
-    font-size: 30px;
-    position: absolute;
-    width: 200.76px;
-    height: 72px;
-    left: 180px;
-    top: 2100px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    color: #121212;
-
-}
-
-
-.food-section {
-    position: absolute;
-    width: 310px;
-    height: 101px;
-    left: 180px;
-    top: 1800px;
-    text-align: left;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #707070;
-
-
-}
-
-.family-section {
     position: absolute;
     width: 310px;
     height: 101px;
     left: 180px;
     top: 2000px;
-    text-align: left;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #707070;
-}
-
-.child-section {
-    position: absolute;
-    width: 310px;
-    height: 101px;
-    left: 180px;
-    top: 2200px;
-    text-align: left;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #707070;
-
-}
-
-.blood {
-
-    position: absolute;
-    width: 58.13px;
-    height: 49.77px;
-    left: 180px;
-    top: 1659px;
-
-
-}
-
-.frame {
-    position: absolute;
-    width: 58.13px;
-    height: 49.77px;
-    left: 190px;
-    top: 1659px;
-
-
-}
-
-.shelter {
-    position: absolute;
-    width: 58.13px;
-    height: 49.77px;
-    left: 200px;
-    top: 1659px;
-
-}
-
-
-
-.half-width {
-
+    /* Rectangle 6 */
 
     position: absolute;
     width: 360px;
@@ -344,8 +222,113 @@ h2 {
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
 
+
 }
 
-.flexible-container {
-    display: flex;
+.food {
+
+
+    position: absolute;
+    width: 231px;
+    height: 35px;
+    left: 564px;
+    top: 1741px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line: height 24px;
+    color: #121212;
+
+    /* Rectangle 7 */
+    position: absolute;
+    width: 360px;
+    height: 352px;
+    left: 541px;
+    top: 1595.5px;
+
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.medicine {
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 948px;
+    top: 1740.78px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121212;
+
+    /* Rectangle 8 */
+
+    position: absolute;
+    width: 360px;
+    height: 352px;
+    left: 925px;
+    top: 1595.5px;
+
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.img {
+    top: 0;
+}
+
+.tit-tex {
+    color: #121212;
+    font-size: 24px;
+    text-align: left;
+}
+
+.ico-tex {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.donate-up {
+    color: black;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    line-height: 50px;
+    width: 300px;
+    height: 54px;
+    left: 583px;
+    top: 2000px;
+}
+
+.text-up {
+    font: poppins;
+    position: absolute;
+    width: 690px;
+    height: 50px;
+    left: 376px;
+    top: 2100px;
+    font-style: normal;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: cente;
+
+}
+
+.sub-section {
+    position: absolute;
+    width: 809px;
+    height: 200px;
+    left: 316px;
+    top: 2342px;
+    background: #FFF4D6;
+    text-decoration: none;
 }
