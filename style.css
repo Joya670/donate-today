@@ -89,7 +89,7 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
+    text-align: cente;
 
 }
 
@@ -105,18 +105,93 @@ h2 {
 }
 
 .box {
-    width: 100px;
-    height: 50px;
+
     background: #fafafa;
     margin: 0px 10px;
     text-align: center;
     float: left;
     font-weight: 700px;
-    font-size: 30px;
+    font-size: 25px;
+    top: 1022px;
+    left: 518px;
+    width: 110px;
+    height: 55px;
+
+}
+
+#change-color {
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+
 }
 
 .box:hover {
     transform: scale(1.4);
     background: #fafafa;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 25);
+    border-radius: 5px;
+    top: 979px;
+    left: 968px;
+    height: 123px;
+    width: 134px;
+}
+
+.amount-text {
+    font: poppins;
+    position: absolute;
+    width: 690px;
+    height: 50px;
+    left: 376px;
+    top: 1100px;
+    font-style: normal;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.second-link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    padding: 15px 40px;
+    position: absolute;
+    left: 300px;
+    top: 1200px;
+    left: 635px;
+
+}
+
+.donate-plan {
+    color: black;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    line-height: 50px;
+    width: 300px;
+    height: 54px;
+    left: 583px;
+    top: 1300px;
+
+}
+
+.text-color-plan {
+    font: poppins;
+    position: absolute;
+    width: 690px;
+    height: 50px;
+    left: 376px;
+    top: 1355px;
+    font-style: normal;
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: cente;
+
 }
