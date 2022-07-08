@@ -54,7 +54,7 @@ p {
     left: 0;
     top: 0;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 25));
-    border: 1px solid;
+    border: 1px;
     display: block;
 }
 
@@ -85,15 +85,11 @@ h2 {
 .text-color {
     font: poppins;
     position: absolute;
-    width: 690px;
+    width: 680px;
     height: 50px;
     left: 376px;
-    top: 870px;
-    font-style: normal;
+    top: 890px;
     color: #707070;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
     text-align: cente;
 
 }
@@ -103,7 +99,6 @@ h2 {
     margin: 70px 0px;
     position: absolute;
     padding: 10px;
-    justify-content: center;
     top: 900px;
     left: 350px;
 
@@ -140,6 +135,7 @@ h2 {
     height: 123px;
     width: 134px;
     display: block;
+    text-align: center;
 }
 
 .amount-text {
@@ -154,7 +150,24 @@ h2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    border-radius: 5px;
+    border-width: 400px;
+
+
+}
+
+.line {
+
+    /* Line 1 */
+
+    position: absolute;
+    width: 765px;
+    height: 0px;
+    left: 338px;
+    top: 1160px;
+
+    border: 1px solid #DADADA;
+
+
 
 }
 
@@ -233,8 +246,6 @@ h2 {
 }
 
 .food {
-
-
     position: absolute;
     width: 231px;
     height: 35px;
@@ -245,7 +256,7 @@ h2 {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line: height 24px;
+    line-height: 24px;
     color: #121212;
 
     /* Rectangle 7 */
@@ -273,8 +284,6 @@ h2 {
     line-height: 24px;
     color: #121212;
 
-    /* Rectangle 8 */
-
     position: absolute;
     width: 360px;
     height: 352px;
@@ -299,6 +308,69 @@ h2 {
     font-size: 15px;
     text-align: left;
     font-weight: 400;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.de-donatin {
+
+    position: absolute;
+    width: 492px;
+    height: 108px;
+    left: 157px;
+    top: 2130px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+
+    color: #121212;
+
+
+}
+
+.de-text {
+
+
+    position: absolute;
+    width: 482px;
+    height: 84px;
+    left: 156px;
+    top: 2258px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    color: #707070;
+
+
+}
+
+.image-do {
+    background: #C4C4C4;
+    border-radius: 5px;
+
+    position: absolute;
+    width: 825px;
+    height: 550px;
+    left: 384px;
+    top: 2058px;
+
+    background: url(image.png);
+
 }
 
 .donate-up {
@@ -330,12 +402,47 @@ h2 {
 
 }
 
-.sub-section {
+
+
+.box-sec {
+
     position: absolute;
+    background: #fafafa;
     width: 809px;
     height: 200px;
-    left: 316px;
-    top: 2342px;
+    left: 313px;
+    top: 2300px;
     background: #FFF4D6;
+
+
+}
+
+.sub-section {
     text-decoration: none;
+    color: black;
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 17px 100px;
+    position: relative;
+    left: 5px;
+
+
+}
+
+.box-button {
+    position: absolute;
+    left: 190px;
+    top: 122px;
+}
+
+.email-sec {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+
+    background: #707070;
+    border-radius: 5px;
+    padding: 17px 60px;
+
+
+
 }
